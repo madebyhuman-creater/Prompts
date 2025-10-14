@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>20 ChatGPT Prompts That Got Us Interviews (and Offers!)</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+    body {
+      font-family: "Inter", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9fafc;
+      color: #222;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      width: 100%;
+      padding: 3.5rem 1rem;
+      text-align: center;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 1.1rem;
+      max-width: 680px;
+      margin: 0.5rem auto;
+      color: #e0e6f5;
+    }
+
+    .stars {
+      color: gold;
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      background: white;
+      max-width: 800px;
+      margin-top: -2rem;
+      padding: 2.5rem;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(20px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .tagline {
+      text-align: center;
+      font-weight: 600;
+      color: #444;
+      margin-bottom: 1.2rem;
+    }
+
+    .benefits {
+      background: #eef3fa;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin: 1.5rem 0 2.5rem;
+    }
+
+    .benefits h3 {
+      margin-top: 0;
+      color: #1e3c72;
+    }
+
+    .before-after {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 1.5rem 0;
+      background: #fef9f3;
+      border-left: 4px solid #ff7b00;
+      padding: 1rem;
+      border-radius: 6px;
+    }
+
+    .before-after strong {
+      color: #ff7b00;
+    }
+
+    ul {
+      list-style: decimal inside;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 1rem;
+    }
+
+    .locked {
+      display: none;
+      font-style: italic;
+      color: #666;
+    }
+
+    .price {
+      text-align: center;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #2a5298;
+      margin-top: 1rem;
+    }
+
+    button {
+      background-color: #ff7b00;
+      color: white;
+      border: none;
+      padding: 1.1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1rem;
+      display: block;
+      width: 100%;
+      transition: background 0.3s, transform 0.15s;
+      font-weight: 600;
+    }
+
+    button:hover {
+      background-color: #e86e00;
+      transform: scale(1.02);
+    }
+
+    .social-proof {
+      background: #fdf6ec;
+      padding: 1rem;
+      border-left: 4px solid #ff7b00;
+      margin-top: 1.5rem;
+      font-style: italic;
+      color: #444;
+      border-radius: 6px;
+    }
+
+    .trust {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 2rem;
+      opacity: 0.8;
+    }
+
+    footer {
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: #777;
+      text-align: center;
+    }
+
+    .highlight {
+      color: #ff7b00;
+      font-weight: 600;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>20 ChatGPT Prompts That Got Us Interviews (and Offers!)</h1>
+    <h2>
+      Stop wasting hours guessing what to type in ChatGPT. Copy the exact prompts that helped real job seekers land interviews, craft emails that get replies, and stand out effortlessly.
+    </h2>
+    <div class="stars">★★★★★ 4.9/5 Rated by 300+ users</div>
+  </header>
+
+  <main>
+    <p class="tagline">🚀 Transform your job prep in one evening — no fluff, just prompts that work.</p>
+
+    <div class="benefits">
+      <h3>Here’s What You’ll Get:</h3>
+      <ul>
+        <li>Tailor your resume to *any* job instantly</li>
+        <li>Generate confident, natural-sounding interview answers</li>
+        <li>Write recruiter emails that actually get replies</li>
+        <li>Negotiate your offer without fear or awkwardness</li>
+        <li>Save 10+ hours every week using ChatGPT smartly</li>
+      </ul>
+    </div>
+
+    <div class="before-after">
+      <p><strong>Before:</strong> “Ugh, I don’t know what to say in my follow-up email.”</p>
+      <p><strong>After:</strong> “Sent one AI-crafted message → got 2 recruiter replies in 24 hours.”</p>
+    </div>
+
+    <h3>Try 3 prompts free 👇</h3>
+    <ul id="prompts">
+      <li><strong>Resume Tailoring:</strong> “Rewrite my resume bullet points to highlight measurable achievements for this job description: [paste job description].”</li>
+      <li><strong>Cold Email to Recruiter:</strong> “Write a concise LinkedIn message to a recruiter expressing interest in this role, sounding confident but respectful.”</li>
+      <li><strong>Interview Practice:</strong> “Ask me 3 behavioral interview questions for a software engineer role, then rate my answers and give suggestions.”</li>
+
+      <li class="locked"><strong>Cover Letter Generator:</strong> “Create a 150-word cover letter using this resume and job post, written in a friendly yet professional tone.”</li>
+      <li class="locked"><strong>STAR Story Maker:</strong> “Convert my experience with a failed project into a powerful STAR-format story showing ownership.”</li>
+      <li class="locked"><strong>Confidence Script:</strong> “Write a 2-sentence self-introduction for an interview that sounds confident and authentic.”</li>
+      <li class="locked"><strong>Salary Negotiation Email:</strong> “Draft a polite email asking for a 10% raise in an offer without sounding demanding.”</li>
+      <li class="locked"><strong>LinkedIn Headline Optimizer:</strong> “Rewrite my LinkedIn headline to attract recruiters for [job role].”</li>
+      <li class="locked"><strong>Job Description Keyword Finder:</strong> “List the top 10 skills and keywords from this job posting that I should include on my resume.”</li>
+      <li class="locked"><strong>Networking Message:</strong> “Write a 3-line message to a senior engineer asking for mentorship or guidance.”</li>
+      <li class="locked"><strong>Portfolio Rewrite:</strong> “Turn my project description into a story that shows impact and results, not just tasks.”</li>
+      <li class="locked"><strong>Follow-Up Message:</strong> “Write a friendly follow-up message if a recruiter hasn’t replied in 5 days.”</li>
+      <li class="locked"><strong>AI Assistant Setup:</strong> “Give me a step-by-step workflow to use ChatGPT for daily productivity.”</li>
+      <li class="locked"><strong>Job Tracker Sheet Prompt:</strong> “Generate a simple Notion or Excel tracker for job applications and follow-ups.”</li>
+      <li class="locked"><strong>Mock Interview Coach:</strong> “Simulate an Amazon-style interview with feedback on each answer.”</li>
+      <li class="locked"><strong>Weekly Reflection Template:</strong> “Create a short journal template to reflect on weekly progress and mindset.”</li>
+      <li class="locked"><strong>Strengths Analyzer:</strong> “Summarize my top 3 strengths based on this resume and career goals.”</li>
+      <li class="locked"><strong>Leadership Example Generator:</strong> “Generate STAR examples for Amazon Leadership Principles: Ownership, Bias for Action, and Deliver Results.”</li>
+      <li class="locked"><strong>AI Study Partner:</strong> “Set up ChatGPT to quiz me daily on technical interview questions I provide.”</li>
+      <li class="locked"><strong>Confidence Booster:</strong> “Give me 5 positive affirmations to read before an interview to feel calm and confident.”</li>
+    </ul>
+
+    <p class="price">💼 Unlock all 20 career-boosting prompts for <span class="highlight">$5</span></p>
+    <p class="price">You can spend $5 for getting that dream job!!!</p>
+
+    <p class="tagline">✨ One small investment → your next big opportunity.</p>
+
+
+    <button onclick="unlockContent()">Get the Full Pack</button>
+
+    <div class="social-proof">
+      “I used Prompt #5 and #7 to rewrite my interview stories — got an offer in 3 weeks. This pack *literally paid for itself*.” — <strong>Dinal, Software Engineer</strong>
+    </div>
+
+    <div class="social-proof">
+      “Sent the cold email prompt to 6 recruiters — got 3 replies the same day. Worth every dollar.” — <strong>Ravi, CS Grad</strong>
+    </div>
+
+    <div class="trust">
+      <span>🔒 Secure Checkout</span>
+      <span>⚡ Instant Download</span>
+      <span>♾️ Lifetime Access</span>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 JobPromptKit • Built with ❤️ using ChatGPT
+  </footer>
+
+  <script>
+    function unlockContent() {
+      window.location.href = "https://gumroad.com/l/YOUR_PRODUCT_LINK";
+    }
+  </script>
+</body>
+</html>
